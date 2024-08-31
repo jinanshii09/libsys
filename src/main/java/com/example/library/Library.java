@@ -39,5 +39,13 @@ public class Library {
         return books;
     }
 
-    
+    public List<Book> getAvailableBooks() {
+        List<Book> availableBooks = new ArrayList<>();
+        for (Book book : books) {
+            if (!book.isBorrowed()) {
+                availableBooks.add(book);
+            }
+        }
+        return availableBooks;
+    }
 }
