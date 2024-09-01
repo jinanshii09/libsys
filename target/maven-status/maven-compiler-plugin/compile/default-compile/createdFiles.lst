@@ -1,3 +1,8 @@
 com\example\library\Main.class
-com\example\library\Book.class
+com\example\library\User.class
+com\example\library\Library$UserActivity.class
+com\example\library\BookNotAvailableException.class
 com\example\library\Library.class
+com\example\library\Book$Copy.class
+com\example\library\Library$Donation.class
+com\example\library\Book.class
