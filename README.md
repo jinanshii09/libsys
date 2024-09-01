@@ -29,8 +29,8 @@ The Library Management System (LMS) is a comprehensive solution designed to mana
 ### 1. Clone the repository:
 
 ```sh
-git clone https://github.com/yourusername/library-management-system.git
-cd library-management-system
+git clone https://github.com/jinanshii09/libsys.git
+cd libsys
 ```
 
 
@@ -43,7 +43,7 @@ mvn clean install
 ### 3. Run the application:
 
 ```sh
-mvn exec:java -Dexec.mainClass="com.example.library.LibraryManagementSystem"
+mvn exec:java -Dexec.mainClass="com.example.library.libsys"
 ```
 
 ## Branches
